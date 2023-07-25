@@ -1,1 +1,1 @@
-readme
+happy to start c programming
