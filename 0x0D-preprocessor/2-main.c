@@ -1,13 +1,12 @@
 #include <stdio.h>
-
 /**
-  * main-This prints the name of the file
-  *
-  * Return : Will aLways return  0 (Success)
+  * main - This function prints the name of file
+  * Return:0 Always
   */
+#define FILENAME __FILE__
+
 int main(void)
 {
-	printf("%s/n", _FILE_);
+	printf("%s\n", FILENAME);
 	return (0);
 }
-
